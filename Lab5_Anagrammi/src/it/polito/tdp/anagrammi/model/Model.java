@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Model {
 
-	private String parola;
+	
 	private List <String> completa = new ArrayList<String>();
 
 
@@ -17,7 +17,7 @@ public class Model {
 	
 	
 	public void recursive (List <Character> parziale,int step, String parola)	{
-	char lettere[] = parola.toCharArray();
+	char lettere[] = parola.toLowerCase().toCharArray();
 	
 	//condizione di terminazione
 	if (step==parola.length()){

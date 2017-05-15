@@ -6,7 +6,7 @@ public class TestModel {
 		
 		Model model = new Model();
 		
-		System.out.println(model.risultato("ciaiodhf"));
+		System.out.println(model.risultato("casllo"));
 
 	}
 
